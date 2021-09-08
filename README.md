@@ -15,3 +15,23 @@ restart terminal
 source /vnm/condaenvs/bin/activate 
 ```
 
+set default python environment
+```
+touch $HOME/.config/Code/User/settings.json
+```
+
+add:
+```
+{
+    "python.defaultInterpreterPath":"/vnm/condaenvs/bin/python",
+}
+```
+
+add this to .bashrc
+``` 
+vi ~/.bashrc
+```
+
+```
+source /vnm/condaenvs/bin/activate 
+```
