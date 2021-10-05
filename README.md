@@ -47,11 +47,17 @@ conda env create -f mne-pinned.yml
 ## Updating environments for future builds:
 
 To create the starter environment and get all the dependencies for the most recent versions of those packages:
-'conda env create -f mne-starter.yml'
+```
+conda env create -f mne-starter.yml
+```
 
 Then activate the environment and export a list of those packages with pinned versions:
-'conda activate mne-eeg-meg'
-'conda env export > mne-pinned.yml'
+```
+conda activate mne-eeg-meg
+conda env export > mne-pinned.yml
+```
 
 Next time, create the environment from the exported file with pinned versions. 
-'conda env create -f mne-pinned.yml'
+```
+conda env create -f mne-pinned.yml
+```
