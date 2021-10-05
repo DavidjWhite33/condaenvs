@@ -1,0 +1,12 @@
+name: pytorch-env
+channels:
+  - pytorch
+  - defaults
+
+dependencies:
+  - python=3
+  - jupyter
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=10.2 
