@@ -1,4 +1,4 @@
-name: pytorch-env
+name: pytorch-gpu
 channels:
   - pytorch
   - defaults
@@ -9,4 +9,5 @@ dependencies:
   - pytorch
   - torchvision
   - torchaudio
-  - cudatoolkit=10.2 
+  - cudatoolkit=10.2
+  - seaborn

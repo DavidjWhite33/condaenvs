@@ -1,4 +1,0 @@
-name: tensorflow-env
-
-dependencies:
-  - tensorflow-gpu
