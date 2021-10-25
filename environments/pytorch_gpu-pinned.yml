@@ -1,4 +1,4 @@
-name: pytorch-cpu
+name: pytorch-gpu-1.9.1
 channels:
   - pytorch
   - defaults

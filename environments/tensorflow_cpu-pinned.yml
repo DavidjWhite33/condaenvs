@@ -1,4 +1,4 @@
-name: tensorflow-cpu
+name: tensorflow-cpu-2.4.1
 channels:
   - defaults
 dependencies:
